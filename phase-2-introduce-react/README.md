@@ -430,7 +430,7 @@ Replace all redundant sidebar elements in every container component
 
 ``` diff
 import React from 'react';
-+ import Navigation from 'components/Sidebar;
++ import Navigation from 'components/Sidebar';
 ```
 
 ``` diff
@@ -474,7 +474,7 @@ export default Pager;
 Replace Pager in our Index container
 
 ``` diff
-+ import Navigation from 'components/Pager;
++ import Navigation from 'components/Pager';
 ```
 
 ``` diff
@@ -530,7 +530,7 @@ export default ExcerptList;
 Replace it in our Index container
 
 ``` diff
-+ import Navigation from 'components/ExcerptList;
++ import Navigation from 'components/ExcerptList';
 ```
 
 At this point our Index container should look like this:
@@ -599,7 +599,7 @@ export default Excerpt;
 Replace it in our ExcerptList container
 
 ``` diff
-+ import Navigation from './Excerpt;
++ import Navigation from './Excerpt';
 ```
 
 Notice, we use relative import as it is a nested component.
@@ -646,7 +646,7 @@ export default Toolbar;
 Replace it in our View container
 
 ``` diff
-+ import Navigation from 'components/Toolbar;
++ import Navigation from 'components/Toolbar';
 ```
 
 Top of the View container component
@@ -722,7 +722,7 @@ export default ADR;
 Replace it in our View container
 
 ``` diff
-+ import Navigation from 'components/ADR;
++ import Navigation from 'components/ADR';
 ```
 
 Then our view container should look like this:
